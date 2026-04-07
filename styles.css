@@ -94,3 +94,51 @@ body {
 .download-button:active {
     background-color: #D8D6CE;
 }
+
+/* Reusable button variants from Figma (primary/secondary/tertiary). */
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background: transparent;
+    color: #333;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.button-primary {
+    background-color: #111;
+    color: #fff;
+}
+
+.button-primary:hover,
+.button-primary:active {
+    background-color: #333;
+}
+
+.button-secondary {
+    background-color: #e6e5e0;
+    color: #333;
+}
+
+.button-secondary:hover,
+.button-secondary:active {
+    background-color: #d8d6ce;
+}
+
+.button-tertiary {
+    background-color: transparent;
+    border-color: #c2c2ba;
+    color: #333;
+}
+
+.button-tertiary:hover,
+.button-tertiary:active {
+    background-color: #e6e5e0;
+}
